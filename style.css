@@ -1,0 +1,92 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbf1e3;
+    font-family:"FreeMono", monospace;
+}
+
+.calculator {
+    margin: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    background-color: #edc8ae;
+}
+
+.mainLog {
+    position: relative;
+    background-color: #edc8ae;
+    box-sizing:border-box;
+    padding-right: 8px;;
+    height: 60px;
+    width: 180px;
+    text-align: right;
+    font-size: 30px;
+    line-height: 60px;
+    overflow-wrap: anywhere;
+}
+
+button {
+    background-color: antiquewhite;
+    position: relative;
+    font: inherit;
+    font-size: 30px;
+    font-weight:normal;
+    border: none;
+    padding: 0;
+    height:60px;
+    width:60px;
+}
+
+button:hover {
+    box-shadow: inset 0 2px 10px #00000061;
+    top:4px;
+    transition: .15s;
+}
+
+button:active {
+    box-shadow: inset 0 2px 10px #00000061;
+    top: 8px;    
+}
+
+.equals {
+    background-color: #efe2b6;
+}
+
+.decimal {
+    background-color:#f3e3ca;
+    padding-bottom: 16px;
+}
+
+.operator,
+.equals,
+.decimal {
+    color: #ff9800;
+    font-weight:bolder;
+    font-size:40px;
+}
+
+.add {
+    background-color: #ed6154;;
+}
+
+.subtract {
+    background-color: #7d7de5;
+    padding-bottom: 6px;
+}
+.multiply {
+    background-color: #f3ca15;
+    padding-top:9px;
+}
+.divide {
+    background-color: #62c1aa;
+}
+
+.bottomBorder {
+    width: 100%;
+    height:12px;
+    background-color: #fbf1e3;
+    z-index: 1;
+}
